@@ -1,1 +1,0 @@
-async function r({params:a}){const e=await fetch("https://newsapi.org/v2/everything?q=web+developer&apiKey=66d3ddae54b6461891255aa61cb390c7"),t=await e.json();return e.ok?{items:t}:{status:e.status,error:new Error}}const s=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{s as _,r as l};
